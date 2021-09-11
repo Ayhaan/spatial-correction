@@ -1,0 +1,103 @@
+// GSM
+@media screen and (max-width: 760px)
+    header
+        padding: 0 0 50px 0
+        nav
+            padding: 0
+            h1
+                display: none
+            ul
+                padding: 0
+                flex-direction: column
+        .titre
+            padding: 0
+            h2
+                margin-top: 0
+            p
+                width: 90%
+                font-size: 18px
+    #one
+        margin: 0
+        flex-direction: column
+
+        div
+            &:first-of-type
+                h2
+                    font-size: 1.75rem
+                p
+                    font-size: 1.1rem
+    #two
+        .container
+            margin: 0
+            .row
+                flex-wrap: wrap
+            .btn
+                flex-direction: column
+                button
+                    margin: 10px 20px 30px 20px !important
+    #three
+        padding: 0
+        .container
+            margin: 10px
+            .titre
+                h2
+                    font-size: 1.75rem
+                p
+                    font-size: 1.1rem
+            .row
+                flex-wrap: wrap
+                .col
+                    flex-direction: column
+                    text-align: center
+                    &:first-of-type
+                        text-align: center
+                        .texte
+                            order: 2
+                    &:last-of-type
+                        .texte
+                            order: 2
+    #four
+        padding: 10px 5px 30px 5px
+        h2
+            font-size: 1.75rem
+        p
+            font-size: 1.1rem
+    footer
+        padding: 80px 0
+        .copy
+            display: flex
+            flex-direction: column
+            align-items: center
+            span
+                border: none
+// TABLETTE
+@media screen and (min-width: 761px) and (max-width: 992px)
+    header
+        padding: 0 0 80px 0
+        nav
+            padding: 10px
+            h1
+                padding: 10px
+        .titre
+            padding: 10px
+            h2
+                margin-top: 0
+            p
+                width: 90%
+    #one
+        flex-direction: column
+        margin: 5%
+        div
+            &:first-of-type
+                h2
+                    font-size: 2rem
+                    text-align: center
+    #two
+        .container
+            margin: 5%
+    #three
+        padding: 0
+        .container
+            margin: 10px
+            .row
+                flex-wrap: wrap
